@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net5.0;net6.0;net7.0;net8.0</TargetFrameworks>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>12</LangVersion>
+
+        <!-- Add these properties -->
+        <PackageId>Serilog.Enrichers.AspnetCoreUser</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Tim Dinh</Authors>
+        <Company>FARENTAL</Company>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+      <PackageReference Include="Serilog" Version="3.1.1" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.15.1" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Enrichers.AspnetCoreUser", "Enrichers\Serilog.Enrichers.AspnetCoreUser.csproj", "{7F6606CA-52F0-47BD-82BB-F491DA4C07E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{13846C65-A27A-4716-B1B5-3C9144D7FBA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F6606CA-52F0-47BD-82BB-F491DA4C07E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6606CA-52F0-47BD-82BB-F491DA4C07E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6606CA-52F0-47BD-82BB-F491DA4C07E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6606CA-52F0-47BD-82BB-F491DA4C07E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13846C65-A27A-4716-B1B5-3C9144D7FBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13846C65-A27A-4716-B1B5-3C9144D7FBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13846C65-A27A-4716-B1B5-3C9144D7FBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13846C65-A27A-4716-B1B5-3C9144D7FBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89598A82-37AD-4081-8109-1A83FCF2ED20}
+	EndGlobalSection
+EndGlobal
